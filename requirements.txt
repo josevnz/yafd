@@ -1,0 +1,5 @@
+rich==12.6.0
+setuptools==65.5.0
+toml==0.10.2
+PySerial
+prometheus_client
