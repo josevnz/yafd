@@ -109,7 +109,7 @@ curl --fail --location --remote-name 'http://letsmakeprojects.com/wp-content/upl
 
 Yes, you will need to copy and paste on the IDE.
 
-In any case, I [re-wrote the original code](sketches/food_dispenser/food_dispenser.ino) keeping the same functionality intact, and added extra debugging to see if the ultrasound sensor were able to pick the distance when an obstacle was found:
+In any case, I [re-wrote the original code](sketches/food_dispenser/food_dispenser.ino) keeping the most functionality intact, and added extra debugging to see if the ultrasound sensor were able to pick the distance when an obstacle was found:
 
 ```
 /*
