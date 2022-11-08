@@ -1,6 +1,6 @@
 # Yet Another Food Dispenser (YAFD)
 
-I want to share with you a small automation project me and my daughter did together; She had an idea to make a food dispenser for our Dog, Domino and I tough it would be the perfect excuse to write some code that also interfaced with real hardware.
+I want to share with you a small automation project me and my daughter did together ([check the video here](https://youtu.be/6d5doXD2x5c)); She had an idea to make a food dispenser for our dog, Domino and I tough it would be the perfect excuse to write some code that also interfaced with real hardware.
 
 We chose [an Arduino hardware](https://www.arduino.cc/en/Guide/Introduction), as it has a huge support community, and it is very inexpensive way to introduce yourself to DYI electronics:
 
@@ -515,7 +515,7 @@ This project was very exciting, nothing beats mixing hardware and software devel
 
 Below are some ideas I want to share with you:
 
-* If you have kids, get them involved: *The best part was getting my daughter interested in electronics and software*; she had a blast putting this together with me, our design sessions were probably the most productive parts of the project.
+* If you have kids, [get them involved](https://youtu.be/6d5doXD2x5c): *The best part was getting my daughter interested in electronics and software*; she had a blast putting this together with me, our design sessions were probably the most productive parts of the project.
 * You may want to buy an inexpensive learning kit that has an Arduino controller; mine has good documentation and [lots of tutorials you can follow online](https://geekdiywiki.com:4433/wiki/index.php/Smraza), but because the hardware is Open Source there lots of makers out there.
 * While we were looking into lowering the power consumption on my Arduino board, I stumbled [into using Solar power with the boards](https://footprinthero.com/how-to-solar-power-an-arduino); I strongly recommend you read this article, it may make a difference on your next project.
 * Looking for a module for your board? The [Arduino Libraries](https://github.com/arduino-libraries) Open Source module may have it already.
