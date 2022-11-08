@@ -45,8 +45,8 @@ All my links are to the Amazon store because it is easy to see the product there
 
 ### Software
 
-* SUDO privileges to install one more packages like minicom (read data from the serial port) and Fritz (to make some nice looking drawings of our project)
-* Download the Arduino IDE 2, we will write the code we need to control our electronics there.
+* [SUDO](https://www.sudo.ws/) privileges to install one more packages like minicom (read data from the serial port) and Fritz (to make some nice looking drawings of our project)
+* Download the [Arduino IDE 2](https://www.arduino.cc/en/software), we will write the code we need to control our electronics there.
 * Python3 to run a few scripts to publish our ultrasonic sensor data as Prometheus metrics, using the computer.
 
 But next I will give you the most important piece of advice for the whole tutorial.
@@ -68,13 +68,13 @@ The schematic looks like this:
 
 ![](food_dispenser_schematic.png)
 
-When you assemble a project in Arduino, you connect components to either the board digital or analog [pins](https://docs.arduino.cc/learn/microcontrollers/digital-pins), which are numbered; For my project I did this:
+When you assemble a project in Arduino, you connect components to either the digital or analog [pins](https://docs.arduino.cc/learn/microcontrollers/digital-pins), which are numbered; For my project I did this:
 
 1. HC-SR04 Ultrasonic Trigger connects to pin D2 on Arduino Nano. The trigger side of the sensor sends the pulse that will bounce on the obstacle (for [more detailed explanation](https://youtu.be/2ojWO1QNprw) watch this).
 2. HC-SR04 Ultrasonic Echo connects to pin D3 on Arduino Nano. This gets back the bouncing pulse, to get the distance between the fod dispenser and the obstacle we measure how long it too to travel and using the speed of sound we calculate the distance. 
 3. SG90 Servo connects to pin D9 on Arduino Nano. This moves on a 90-degree angle if an obstacle is detected and the distance is less than 35 cm (or whatever you choose in the code) 
 
-The rest of the 5V and Ground connect to the Arduino Nano as well; because is so many connections, I used a [solderless breadboard](https://protosupplies.com/guide-to-solderless-breadboards/):
+The rest of the 5V and Ground connect to the Arduino Nano as well; because it has so many connections, I used a [solderless breadboard](https://protosupplies.com/guide-to-solderless-breadboards/):
 
 ![](food_dispenser_breadboard.png)
 
