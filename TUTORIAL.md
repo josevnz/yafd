@@ -82,15 +82,20 @@ But if you are like me you rather see a photo of all the components connected to
 
 ![](yafd_usb_9v_battery.jpg)
 
-You may be wondering how did I make these diagrams; Fedora has RPM packages for [Open Source Fritzing](https://fritzing.org/), you can install it like this:
+You may be wondering how I made these diagrams.
+The open source application [Fritzing](https://fritzing.org) is a great way to draw out electronic schematics and wiring diagrams, and it's available on Fedora as an RPM:
 
 ```shell
 sudo dnf install -y fritzing.x86_64 fritzing-parts.noarch
 ```
 
-After that just call 'Fritzing' and you are good to go (I included the diagrams, so you can open them and modify their contents at will). 
+On RHEL and CentOS, you can install it as a [Flatpak](https://flathub.org/apps/details/org.fritzing.Fritzing):
 
-Feel free to [open the diagram](schematics/food_dispenser.fzz) and make some changes.
+```shell
+flatpak install org.fritzing.Fritzing
+```
+
+I've included the diagram source file (`schematics/food_dispenser.fzz`) in the Git repository, so you can open them and modify their contents at will.
 
 ## Writing code for the Arduino controller
 
@@ -412,13 +417,13 @@ The Arduino UI has a nice way to show the activity on the USB serial port (and a
 
 ![](arduino2_ide_serial_port_caoture.png)
 
-Let's see now how you can capture data from '/dev/ttyUSB0' (name of the device on my Fedora Linux).
+Let's see now how you can capture data from `/dev/ttyUSB0` (that's the name of the device on my Fedora Linux install).
 
 ### The easiest way, using minicom
 
 You can open the serial port using [minicom](https://en.wikipedia.org/wiki/Minicom).
 
-To install it on Fedora:
+To install it on Fedora, CentOS, RHEL, and similar:
 
 ```shell
 [josevnz@dmaf5 Documents]$ sudo dnf install  minicom
