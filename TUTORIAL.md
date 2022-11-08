@@ -14,7 +14,7 @@ We used the [Arduino Nano](https://store-usa.arduino.cc/products/arduino-nano) f
 
 ## Not original work, I found lots of inspiration (and instructors) and you should do the same
 
-I didn't come up with the idea or the code myself; ROBO HUB [wrote a detailed tutorial ](https://www.instructables.com/Automatic-Food-Dispenser-From-Arduino/)on now to make a pet food dispenser with basic materials, and I took notes. 
+I didn't come up with the idea or the code myself; ROBO HUB [wrote a detailed tutorial ](https://www.instructables.com/Automatic-Food-Dispenser-From-Arduino/) on now to make a pet food dispenser with basic materials, and I took notes. 
 
 He also made [a video](https://youtu.be/zQ8SjIcYC5w), which I ended watching many times over (one of the many on his [YouTube](https://www.youtube.com/c/jeevanjee) channel).
 
@@ -99,9 +99,9 @@ I've included the diagram source file (`schematics/food_dispenser.fzz`) in the G
 
 ## Writing code for the Arduino controller
 
-If you haven't downloaded and installed the Arduino 2 IDE [just follow these instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing), then move on.
+If you haven't downloaded and installed the Arduino 2 IDE please do it now, [just follow these instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing), and then move on.
 
-You can write code for the Arduino using their programing language; It looks a lot like C, and it has 2 very important functions:
+You can write code for the Arduino using their programing language; It looks a lot like C, and it has 2 very simple and important functions:
 
 * setup: You initialize the components, set up which ports can read and write data. Called only once.
 * loop: Here is where you do work reading and writing data to the sensors.
@@ -381,7 +381,7 @@ void loop() {
 
 The battery lasted around 3 hours more after this change, but still I want to squeeze more power; The Arduino guide [as lots more suggestions](https://docs.arduino.cc/learn/electronics/low-power?queryID=4bb7e80ccdadebbb0d28e99a4638f2ca), and of course [there is much more on the topic of saving energy](http://www.gammon.com.au/forum/?id=11497), but this is a good start.
 
-What other issues we have? Move on to the nex item.
+What other issues we have? Move on to the next item.
 
 ### The 3.3V/ 5V MB102 Solderless Breadboard Power Supply Module **has the power led on all the time**
 
