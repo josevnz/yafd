@@ -1,6 +1,6 @@
 Yet Another Food Dispenser (YAFD)
 
-A small project/ tutorial I put together while learning how to use Influxdb for data processing.
+A small project/ tutorial I put together while learning how to create a pet food dispenser using Arduino Nano.
 
 Please read the [Tutorial](TUTORIAL.md) file for details.
 
