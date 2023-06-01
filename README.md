@@ -1,5 +1,7 @@
 Yet Another Food Dispenser (YAFD)
 
+![](mazinger-z.png)
+
 A small project/ tutorial I put together while learning how to create a pet food dispenser using Arduino Nano.
 
 Please read the [Tutorial](TUTORIAL.md) file for details.
